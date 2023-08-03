@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+.button input[value="Next"]{
+    position: absolute;
+    height: 30px;
+    font-size: 20px;
+    width:100px;
+    bottom: 40px;
+    right: 20px;
+}
+
+.button input[value="Previous"]{
+    position: absolute;
+    height: 30px;
+    font-size: 20px;
+    width:100px;
+    bottom: 40px;
+    left: 20px;
+}

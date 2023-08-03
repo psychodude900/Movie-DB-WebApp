@@ -1,0 +1,48 @@
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-Medium.ttf);
+}
+
+.header {
+    font-family: oswald;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.search-bar{
+    text-align: center;
+}
+
+.search-submit form{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.search-submit form input[name="search"]{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.search-submit form input[type=submit]:hover{
+    box-shadow: 0 0 5px 5px red;
+}
+
+input[type=text]{
+    font-size: 30px;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+}
+
